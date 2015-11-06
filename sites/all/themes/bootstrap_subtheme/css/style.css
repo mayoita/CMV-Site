@@ -1,0 +1,323 @@
+#admin-menu {
+    z-index:9999;
+}
+
+/* Fade for Bootstrap carousel */
+.carousel-fade .carousel-inner .item {
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+}
+
+
+.carousel-fade .carousel-inner .carousel-control {
+    z-index: 2;
+}
+
+.carousel-inner {
+    top: 60px;
+}
+
+body {
+    background:url(../images/page-wrapper.png) 0 0 repeat;
+}
+
+/* Online image */
+#online {
+    z-index: 1;
+    position: absolute;
+    top: calc((200 * 100%) / 1680);
+    right:calc((330* 100%) / 1680);
+
+}
+
+/* Styling navbar*/
+
+.navbar-default .navbar-nav li a:hover {
+    background-color: #BBBBBB;
+}
+.navbar-default {
+    background-color: #D2D2D2;
+    border: none;
+}
+.nav>li>a {
+    padding: 0px 10px;
+}
+.navbar-nav>li>a {
+    line-height: 60px;
+}
+#menu-logo  {
+    background: url(../images/logo.png) no-repeat 0 0;
+    display: block;
+    line-height: 73px;
+    box-shadow: #000 0 2px 3px;
+    width: 172px;
+    height: 75px;
+
+}
+#menu-logo {
+    color: transparent;
+}
+.navbar {
+    margin-bottom: 0px;
+    height: 120px;
+}
+.dropdown-menu {
+    background-color: #EFECE3;
+    border: none;
+    top:100%;
+    border-radius: 0px;
+}
+.navbar-nav.collapsed li:hover  {
+    visibility: visible;
+}
+.navbar-default .navbar-nav>.active>a {
+    background-color: transparent;
+
+}
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: #BBBBBB;
+
+}
+.navbar-default .navbar-nav li a:hover,{
+    background-color: transparent;
+    color: #BD2918; /**/
+}
+.secondary {
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: #69635e
+}
+nav:first-child {
+    font-size: 12px;
+    font-family: Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+
+}
+.top_menu_border {
+    border-left-color: rgb(71, 71, 70);
+    border-left-style: solid;
+    border-left-width: 1px;
+    display: inline!important;
+
+}
+
+/*Highlight*/
+
+.jcarousel-row a {
+    color: rgb(189, 39, 22);
+    cursor: auto;
+    display: inline;
+    font-family: Lusitana, serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: auto;
+    line-height: 24px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;
+    word-wrap: break-word;
+}
+
+.views-field-field-introduction {
+    color: rgb(105, 99, 94);
+    cursor: pointer;
+    display: block;
+    font-family: Lusitana, serif;
+}
+.views-field-field-preview-image {
+    position: relative;
+    bottom: 0px;
+    z-index:-1;
+    -webkit-transition:bottom 0.4s;
+    -moz-transition:bottom 0.4s;
+    -o-transition:bottom 0.4s;
+    transition:bottom 0.4s
+
+}
+
+.highlight-card-hover{
+    bottom:0px;
+    -webkit-transition:bottom 0.4s;
+    -moz-transition:bottom 0.4s;
+    -o-transition:bottom 0.4s;
+    transition:bottom 0.4s
+}
+
+.views-field-title {
+    position: absolute;
+    top: 0px;
+}
+/*JACKPOT BLOCK */
+.jackpot-block {
+    padding: 20px;
+    background-color: #BD2716;
+
+
+}
+.jackpot-block .pane-title {
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 1em;
+    color: #ebc444;
+
+    font-family: "Lusitana",serif;
+    font-weight: bold;
+}
+.jackpot-block .pane-content h2 {
+    cursor: pointer;
+    font-size: 44px;
+    line-height: 1em;
+    color: #ebc444;
+    background: url(../images/jackpot-arrow.png) no-repeat right center;
+    font-family: "Lusitana",serif;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.jackpot-block h4,.jackpot-block p {
+    color: rgb(239, 236, 227);
+    display: block;
+    font-family: Lusitana, serif;
+    font-size: 16px;
+
+}
+.jackpot-block h4 {
+ font-weight: bold;
+    line-height: 19.2px;
+    margin-bottom: 0px;
+}
+.col-lg-4 {
+    padding-right: 33px;
+    margin-top: 60px;
+}
+
+.field-name-field-cover-image {
+    position: relative;
+    top: 0px;
+    margin: auto!important;
+}
+.field-name-field-cover-image img{
+
+    width: 100%;
+    height: auto;
+    top: 0px;
+
+}
+.panel-col-first {
+
+    margin: auto;
+
+    background-color: #396451;
+    float: none!important;
+    font-family: Lusitana, serif;
+    font-size: 16px;
+color: white;
+}
+
+.event {
+    padding: 0px;
+}
+
+.field-name-title {
+    border: 2px solid white;
+    background: url(../images/intro.png) 0 0 repeat;
+    padding: 20px;
+    margin-bottom: 40px;
+    color: #69635e;
+}
+
+.event_title {
+    margin: 0;
+    font-size: 20px;
+    color: #bd2716;
+    text-transform: uppercase;
+    font-family: Lusitana, serif;
+    font-weight: bold;
+}
+.field-name-body {
+    padding: 20px;
+}
+/* Diciotto più*/
+.diciottopiu {
+    color: rgb(105, 99, 94);
+    display: block;
+    font-family: Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+margin-top: 15px;
+    margin-right: 40px;
+    text-transform: uppercase;
+    position: absolute;
+padding-left: 20px;
+}
+
+
+.diciottopiu p span {
+    color: rgb(105, 99, 94);
+    display: inline;
+    font-family: Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: auto;
+
+    position: relative;
+    text-transform: uppercase;
+    top: 3px;
+}
+
+.diciottopiu p a {
+    color: rgb(105, 99, 94);
+    cursor: auto;
+    display: inline;
+    font-family: Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+
+    font-weight: bold;
+
+    text-decoration: none;
+    text-transform: uppercase;
+}/* Search field*/
+#custom-search-blocks-form-1 {
+    position: relative;
+    left: 755px;
+    width: 200px;
+    margin-top: 13px;
+}
+#custom-search-blocks-form-1 div{
+    display: inline-flex;
+}
+.navbar .container-fluid {
+    padding: 0px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}

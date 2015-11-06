@@ -1,0 +1,66 @@
+/* Center slideshow in the page with image of 1680px*/
+@media (min-width: 1680px){
+    .carousel-inner {
+        position: fixed;
+        width: 100%;
+        left:calc((100% - 1680px) / 2);
+    }
+    #online {
+        z-index: 1;
+        position: absolute;
+
+        right:calc(330px + ((100% - 1680px) / 2));
+
+    }
+}
+@media (max-width: 1680px){
+
+    #online {
+        width: calc((100% * 195) / 1680); /* 195 is the width of the icon, 1680 is the with od the slide image */
+        height: auto;
+
+    }
+}
+@media (max-width: 1679px){
+    .carousel-inner {
+        position: fixed;
+        width: 100%;
+        left:0px;
+    }
+}
+/* Center navbar over 1200px*/
+@media (min-width: 1200px) {
+
+    .jackpot-block {
+        width: 294px;
+        margin-left: 100px;
+    }
+}
+.jcarousel-pagination a.active {
+    background: #BD2716;
+    color: #fff;
+    opacity: 1;
+    box-shadow: none;
+}
+
+@media (min-width: 768px) {
+    ul:first-child {
+        float: right!important;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+        height: 60px;
+    }
+}
+@media (max-width: 375px) {
+    .diciottopiu p span {
+        font-size: 12px;
+    }
+
+    .diciottopiu {
+        font-size: 8px;
+    }
+
+}
